@@ -45,6 +45,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=19.1.0.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>..\packages\AjaxControlToolkit.19.1.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -152,6 +155,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Data\products.json" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -208,6 +212,7 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Data\JSONReadWrite.cs" />
     <Compile Include="Data\ProductContext.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -222,6 +227,10 @@
     <Compile Include="Migrations\202003210719378_InitalCreate.cs" />
     <Compile Include="Migrations\202003210719378_InitalCreate.designer.cs">
       <DependentUpon>202003210719378_InitalCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003230954270_UpdateProductTable.cs" />
+    <Compile Include="Migrations\202003230954270_UpdateProductTable.designer.cs">
+      <DependentUpon>202003230954270_UpdateProductTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
@@ -277,6 +286,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202003210719378_InitalCreate.resx">
       <DependentUpon>202003210719378_InitalCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003230954270_UpdateProductTable.resx">
+      <DependentUpon>202003230954270_UpdateProductTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

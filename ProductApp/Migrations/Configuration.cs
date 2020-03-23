@@ -1,5 +1,6 @@
 ﻿namespace ProductApp.Migrations
 {
+    using ProductApp.Data;
     using ProductApp.Models;
     using System;
     using System.Collections.Generic;
@@ -7,14 +8,14 @@
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    public sealed class Configuration : DbMigrationsConfiguration<ProductApp.Data.ProductContext>
+    public sealed class Configuration : DbMigrationsConfiguration<ProductContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(ProductApp.Data.ProductContext context)
+        protected override void Seed(ProductContext context)
         {
             if (context.Categories.Any())
             {

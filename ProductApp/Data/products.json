@@ -1,0 +1,44 @@
+[
+  {
+    "ProductId": 1,
+    "Title": "Chocolate cake",
+    "Description": "Chocolate cake with cherry",
+    "CategoryId": 1,
+    "Category": {
+      "CategoryId": 1,
+      "CategoryName": "Chocolate"
+    },
+    "SupplierId": 1,
+    "Supplier": {
+      "SupplierId": 1,
+      "SupplierName": "Maxi"
+    },
+    "ManufacturerId": 1,
+    "Manufacturer": {
+      "ManufacturerId": 1,
+      "ManufacturerName": "Milka"
+    },
+    "Price": "100"
+  },
+  {
+    "ProductId": 2,
+    "Title": "Quartz Ice cream",
+    "Description": "Ice cream with 4 different flavors",
+    "CategoryId": 2,
+    "Category": {
+      "CategoryId": 2,
+      "CategoryName": "Ice cream"
+    },
+    "SupplierId": 1,
+    "Supplier": {
+      "SupplierId": 1,
+      "SupplierName": "Maxi"
+    },
+    "ManufacturerId": 2,
+    "Manufacturer": {
+      "ManufacturerId": 2,
+      "ManufacturerName": "Delta"
+    },
+    "Price": "100"
+  }
+]

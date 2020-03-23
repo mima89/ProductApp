@@ -14,6 +14,7 @@ namespace ProductApp.Models
         public string Title { get; set; }
         public string Description { get; set; }
         public int CategoryId { get; set; }
+        public int? SupplierId { get; set; }
         public int ManufacturerId { get; set; }
         public decimal Price { get; set; }
 
