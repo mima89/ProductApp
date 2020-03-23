@@ -187,6 +187,10 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
+    <Content Include="Views\Products\DbImplementation\CreateProductPage.aspx" />
+    <Content Include="Views\Products\DbImplementation\EditProductPage.aspx" />
+    <Content Include="Views\Products\JSONImplementation\CreateProductPage.aspx" />
+    <Content Include="Views\Products\JSONImplementation\EditProductPage.aspx" />
     <Content Include="Views\Products\ProductsPage.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -259,6 +263,34 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Products\DbImplementation\CreateProductPage.aspx.cs">
+      <DependentUpon>CreateProductPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Products\DbImplementation\CreateProductPage.aspx.designer.cs">
+      <DependentUpon>CreateProductPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Products\DbImplementation\EditProductPage.aspx.cs">
+      <DependentUpon>EditProductPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Products\DbImplementation\EditProductPage.aspx.designer.cs">
+      <DependentUpon>EditProductPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Products\JSONImplementation\CreateProductPage.aspx.cs">
+      <DependentUpon>CreateProductPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Products\JSONImplementation\CreateProductPage.aspx.designer.cs">
+      <DependentUpon>CreateProductPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Products\JSONImplementation\EditProductPage.aspx.cs">
+      <DependentUpon>EditProductPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Products\JSONImplementation\EditProductPage.aspx.designer.cs">
+      <DependentUpon>EditProductPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\Products\ProductsPage.aspx.cs">
       <DependentUpon>ProductsPage.aspx</DependentUpon>

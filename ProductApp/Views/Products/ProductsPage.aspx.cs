@@ -41,5 +41,11 @@ namespace ProductApp.Views.Products
             List<Product> products = JsonConvert.DeserializeObject<List<Product>>(jsonString);
             return ProductViewModel.GetProductsViewModel(products);
         }
+
+        protected void EditProductCommand(object sender, CommandEventArgs e)
+        {
+            string id = (string)e.CommandArgument;
+            Response.Redirect("/Views/Products/DbImplementation/EditProductPage.aspx?Id=" + id);
+        }
     }
 }

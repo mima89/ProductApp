@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProductApp.Views.Products {
+namespace ProductApp.Views.Products.JSONImplementation {
     
     
-    public partial class ProductsPage {
+    public partial class EditProductPage {
         
         /// <summary>
         /// form1 control.
@@ -22,75 +22,102 @@ namespace ProductApp.Views.Products {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// ScriptManager1 control.
+        /// ProductIdField control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.ScriptManager ScriptManager1;
+        protected global::System.Web.UI.WebControls.HiddenField ProductIdField;
         
         /// <summary>
-        /// ProductTabContainer control.
+        /// ProductNameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::AjaxControlToolkit.TabContainer ProductTabContainer;
+        protected global::System.Web.UI.WebControls.TextBox ProductNameTextBox;
         
         /// <summary>
-        /// ProductListFromDB control.
+        /// ProductNameValidator control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::AjaxControlToolkit.TabPanel ProductListFromDB;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ProductNameValidator;
         
         /// <summary>
-        /// AddProductToDB control.
+        /// ProductDescriptionTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button AddProductToDB;
+        protected global::System.Web.UI.WebControls.TextBox ProductDescriptionTextBox;
         
         /// <summary>
-        /// productListDB control.
+        /// CategoryDropDownList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListView productListDB;
+        protected global::System.Web.UI.WebControls.DropDownList CategoryDropDownList;
         
         /// <summary>
-        /// ProductListFromJSON control.
+        /// SupplierDropDownList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::AjaxControlToolkit.TabPanel ProductListFromJSON;
+        protected global::System.Web.UI.WebControls.DropDownList SupplierDropDownList;
         
         /// <summary>
-        /// AddToJSON control.
+        /// ManufacturerDropDownList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button AddToJSON;
+        protected global::System.Web.UI.WebControls.DropDownList ManufacturerDropDownList;
         
         /// <summary>
-        /// ProductListJSON control.
+        /// PriceTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListView ProductListJSON;
+        protected global::System.Web.UI.WebControls.TextBox PriceTextBox;
+        
+        /// <summary>
+        /// PriceRegex control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator PriceRegex;
+        
+        /// <summary>
+        /// PriceValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator PriceValidator;
+        
+        /// <summary>
+        /// EditProductButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button EditProductButton;
     }
 }
